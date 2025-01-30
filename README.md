@@ -2,6 +2,16 @@
 
 This project provides a comprehensive benchmark and analysis of various steganography methods, introducing a novel multi-layer approach that significantly improves security while maintaining image quality.
 
+## Model Architecture
+
+![Model Architecture](model_architecture.png)
+
+Our multi-layer steganography model implements a sophisticated encode-decode architecture that:
+- Distributes payload across multiple encryption layers
+- Utilizes independent AES encryption for each layer
+- Maintains image quality through optimized LSB embedding
+- Provides robust message recovery through layered decoding
+
 ## Key Findings
 
 ![Security Analysis by Layer Depth](plots/layer_security_comparison.png)
