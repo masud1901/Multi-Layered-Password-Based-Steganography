@@ -1,0 +1,33 @@
+Method,Message Size (Bytes),PSNR (dB),File Size (KB),Encoding Time (s),Decoding Time (s),MSE,Chi-Square,Bit Error Rate,Layers,Security
+Proposed Method (1 layer),32,88.44,1761.73,0.692,0.105,0.0001,0.15,9.3e-05,1,Multi-password AES
+Proposed Method (1 layer),256,82.66,1762.66,0.45,0.104,0.0004,0.44,0.000352,1,Multi-password AES
+Proposed Method (1 layer),1024,77.1,1764.5,0.474,0.113,0.0013,3.49,0.001268,1,Multi-password AES
+Proposed Method (1 layer),8192,68.25,1779.75,0.586,0.201,0.0097,70.2,0.009739,1,Multi-password AES
+Proposed Method (2 layer),32,86.19,1761.95,0.519,0.158,0.0002,0.18,0.000156,2,Multi-password AES
+Proposed Method (2 layer),256,81.97,1762.77,0.515,0.157,0.0004,0.52,0.000413,2,Multi-password AES
+Proposed Method (2 layer),1024,76.94,1764.58,0.523,0.17,0.0013,3.75,0.001317,2,Multi-password AES
+Proposed Method (2 layer),8192,68.21,1779.9,0.631,0.256,0.0098,73.89,0.009813,2,Multi-password AES
+Proposed Method (3 layer),32,85.71,1762.0,0.576,0.212,0.0002,0.19,0.000175,3,Multi-password AES
+Proposed Method (3 layer),256,81.56,1762.85,0.554,0.216,0.0005,0.65,0.000454,3,Multi-password AES
+Proposed Method (3 layer),1024,76.82,1764.67,0.585,0.231,0.0014,3.61,0.001352,3,Multi-password AES
+Proposed Method (3 layer),8192,68.2,1779.99,0.683,0.306,0.0098,76.13,0.009832,3,Multi-password AES
+Proposed Variant (1 layer),32,86.85,1761.89,0.443,0.081,0.0001,0.15,0.000134,1,Multi-password AES
+Proposed Variant (1 layer),256,82.15,1762.66,0.428,0.079,0.0004,0.48,0.000396,1,Multi-password AES
+Proposed Variant (1 layer),1024,76.98,1764.54,0.444,0.094,0.0013,3.85,0.001303,1,Multi-password AES
+Proposed Variant (1 layer),8192,68.26,1779.9,0.553,0.177,0.0097,72.11,0.009714,1,Multi-password AES
+Proposed Variant (2 layer),32,85.41,1762.06,0.465,0.103,0.0002,0.17,0.000187,2,Multi-password AES
+Proposed Variant (2 layer),256,81.24,1762.88,0.455,0.109,0.0005,0.71,0.000488,2,Multi-password AES
+Proposed Variant (2 layer),1024,76.69,1764.71,0.466,0.116,0.0014,4.24,0.001393,2,Multi-password AES
+Proposed Variant (2 layer),8192,68.19,1779.89,0.586,0.202,0.0099,77.21,0.009868,2,Multi-password AES
+Proposed Variant (3 layer),32,83.48,1762.41,0.488,0.13,0.0003,0.33,0.000292,3,Multi-password AES
+Proposed Variant (3 layer),256,80.99,1762.92,0.489,0.132,0.0005,0.91,0.000518,3,Multi-password AES
+Proposed Variant (3 layer),1024,76.59,1764.79,0.497,0.143,0.0014,4.65,0.001424,3,Multi-password AES
+Proposed Variant (3 layer),8192,68.16,1780.1,0.624,0.234,0.0099,79.25,0.009931,3,Multi-password AES
+Shmueli et al. (2024),32,90.4,2365.16,11.993,11.22,0.0001,0.05,5.9e-05,1,Single-layer
+Shmueli et al. (2024),235,81.94,2365.37,11.441,11.235,0.0004,0.14,0.000416,1,Single-layer
+Shmueli et al. (2024),235,81.94,2365.37,11.366,11.231,0.0004,0.14,0.000416,1,Single-layer
+Shmueli et al. (2024),235,81.94,2365.37,11.469,11.673,0.0004,0.14,0.000416,1,Single-layer
+Sultan et al. (2023),32,89.22,1761.65,0.379,0.048,0.0001,0.12,7.8e-05,1,AES-256
+Sultan et al. (2023),256,82.79,1762.63,0.39,0.053,0.0003,0.42,0.000342,1,AES-256
+Sultan et al. (2023),1024,77.18,1764.41,0.397,0.06,0.0012,3.08,0.001246,1,AES-256
+Sultan et al. (2023),8192,68.26,1779.83,0.511,0.157,0.0097,75.72,0.009708,1,AES-256
