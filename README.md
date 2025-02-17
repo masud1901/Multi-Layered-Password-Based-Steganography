@@ -93,4 +93,17 @@ Our multi-layer steganography approach demonstrates significant improvements ove
 - Implementation of dynamic layer allocation
 - Integration with other steganography techniques
 - Development of automated layer optimization
-- Extended analysis with larger datasets 
+- Extended analysis with larger datasets
+
+# Multi-Layer AES Steganography Visualization
+
+## Video Demonstration
+### Click the image below to watch the visualization:
+[![Multi-Layer AES Steganography](https://img.youtube.com/vi/Uf8DsTQ9t9s/maxresdefault.jpg)](https://www.youtube.com/watch?v=Uf8DsTQ9t9s "Multi-Layer AES Steganography Visualization")
+
+## Run Locally
+To generate this visualization locally:
+
+```bash
+manim -pqh manim_script_second.py MultiLayerAESWorkflow
+``` 
